@@ -62,7 +62,7 @@ litery[34] = "Ż";
 
 for (i = 0; i < dlugosc; i++) {
   if (haslo.charAt(i) == " ") kreski = kreski + " ";
-  else kreski = kreski + "_";
+  else kreski = kreski + "-";
 }
 
 function wypisz_haslo() {
